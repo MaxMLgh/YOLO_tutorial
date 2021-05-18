@@ -3,7 +3,6 @@ __pycache__/
 .idea/
 .ipynb_checkpoints
 video_bb.ipynb
-README.md
 *.py
 *.weights
 *.cfg
