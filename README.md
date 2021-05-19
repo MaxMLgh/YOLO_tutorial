@@ -47,14 +47,10 @@ You can comapre 4 algorithms on different input sizes(320, 416(most popular), 62
 First clone this repository using git 
 
 ``` bash
-git clone https://github.com/jakub7535/yolo_tutorial.git
+git clone https://github.com/MaxMLgh/yolo_tutorial.git
 ```
 or simply  download and unpack the ZIP file(change folder name from 'yolo_tutorial-master' to 'yolo_tutorial' for convenience.
-![image](https://user-images.githubusercontent.com/73268650/114109329-5b2c0680-98d5-11eb-8e7d-9f4711754fba.png)
-
-Then enter the repository:
-
-![image](https://user-images.githubusercontent.com/73268650/114109278-3f286500-98d5-11eb-8eeb-1990952282f0.png)
+Then enter the repository.
 
 Installing using conda(recomended)
 
