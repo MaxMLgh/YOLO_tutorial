@@ -1,8 +1,11 @@
 # Yolo tutorial
-This is the code i used in my tutorial[yt link] of Yolo algorithm.
+This is the code i used in my tutorial of Yolo algorithm.  
+Link to **YouTube** video:  
 
-You can manipulate live thresholds(confidence-CONF, intersection of union-IOU) and accesories(anchor boxes, grids) using keyboard on image and see how it affects detection.
-Keybord keys:
+The head of Yolo v3, v4, tiny algorithms works roughly the same, the main change is in the 'back-bone' which is feature extractor.  
+So experiment on them to find which one works the best for you.  
+You can manipulate live thresholds(confidence-CONF, intersection of union-IOU) and accessories(anchor boxes, grids) using keyboard on the image and see how it affects detection.
+Keyboard keys:
 - 'w'/'W' - IOU + 0.01/0.1
 - 's'/'S' - IOU - 0.01/0.1
 - 'd'/'D' - CONF + 0.01/0.1
@@ -17,8 +20,8 @@ Keybord keys:
 - '4' - yolov4
 - '#' - yolov3-tiny
 - '$' - yolov4-tiny
-- '[' - substract 32 pixels to width
-- ']' - add 32 pixels to width
+- '[' - subtract 32 pixels to the width
+- ']' - add 32 pixels to the width
 - 't' - show class and probability on box ON/OFF
 - 'T' - show text on the left
 
@@ -34,9 +37,9 @@ Keybord keys:
 You can run detection on:
 - images and videos from your pc/laptop
 - directly from camera
-- from most of images on the web just by passing the link of them.
+- from most of the images on the web just by passing the link of them.
 
-You can comapre 4 algorithms on different input sizes(320, 416(most popular), 620, any integer multiple of 32):
+You can compare 4 algorithms on different input sizes(320, 416(most popular), 620, any integer multiple of 32):
 - Yolov3
 - Yolov3-tiny
 - Yolov4
@@ -53,12 +56,12 @@ https://colab.research.google.com/github/MaxMLgh/YOLO_tutorial/blob/master/Googl
 First clone this repository using git 
 
 ``` bash
-git clone https://github.com/MaxMLgh/yolo_tutorial.git
+git clone https://github.com/MaxMLgh/YOLO_tutorial.git
 ```
-or simply  download and unpack the ZIP file(change folder name from 'yolo_tutorial-master' to 'yolo_tutorial' for convenience.
+Or simply  download and unpack the ZIP file(change folder name from 'yolo_tutorial-master' to 'yolo_tutorial' for convenience.
 Then enter the repository.
 
-Installing using conda(recomended)
+Installing using conda(recommended)
 
 ``` bash
 conda create --name yolo_tutorial python=3.8
@@ -84,4 +87,4 @@ In order to run detection you must download weights you want to use for neural n
 - [yolov4-tiny](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights) (24MB)(already in the folder 'net')
 
 # How to run
-Make sure you are in yolo_tutorial repository (and your venv yolo_tutorial is activated for anaconda instalation). Type 'jupyter notebook' in cmd and notebook will open in your browser. You can run cells using Shift+Enter. If you want to use camera detection make sure you have it pluged in.
+Make sure you are the in yolo_tutorial repository (and your venv yolo_tutorial is activated for anaconda installation). Type 'jupyter notebook' in cmd and notebook will open in your browser. You can run cells using Shift+Enter. If you want to use camera detection make sure you have it plugged in.
