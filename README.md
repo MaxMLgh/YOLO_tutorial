@@ -41,9 +41,15 @@ You can comapre 4 algorithms on different input sizes(320, 416(most popular), 62
 - Yolov3-tiny
 - Yolov4
 - Yolov4-tiny
+# Google Colab notebook 
+If you first want to give it a try before installing check the Google colab version. 
+You can do there everything that you could do on your machine but only on image from the web and without the keyboard commands, you need to initialize instance of class Detetcion with right parameters.  
+Link to colab notebook:  
+https://colab.research.google.com/github/MaxMLgh/YOLO_tutorial/blob/master/Google_Colab_Yolo_Tutorial.ipynb
+![image](https://user-images.githubusercontent.com/84282532/119281270-65ac2080-bc35-11eb-903d-4de313688106.png)
 
 
-# Instalation
+# Instalation on your machine
 First clone this repository using git 
 
 ``` bash
