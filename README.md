@@ -1,7 +1,7 @@
 # Yolo tutorial
 This is the code i used in my tutorial of Yolo algorithm.  
-Link to **YouTube** video:  
-
+Link to **YouTube** video:    
+https://www.youtube.com/watch?v=MKF1NHGgFfk  
 The head of Yolo v3, v4, tiny algorithms works roughly the same, the main change is in the 'back-bone' which is feature extractor.  
 So experiment on them to find which one works the best for you.  
 You can manipulate live thresholds(confidence-CONF, intersection of union-IOU) and accessories(anchor boxes, grids) using keyboard on the image and see how it affects detection.
@@ -27,7 +27,7 @@ Keyboard keys:
 
 **If you'll click capital letter(left SHIFT + letter) gain/loss will be 0.1**
 
-# Demo of keyboard stearing
+# Demo of the keyboard steering
 
 ![demo(1)](https://user-images.githubusercontent.com/73268650/114053923-acb1a280-988f-11eb-9bd4-2f2addaf8488.gif)
 
