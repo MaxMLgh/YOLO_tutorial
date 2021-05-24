@@ -10,6 +10,7 @@ video_bb.ipynb
 !net/yolov3-tiny.cfg
 !net/yolov4.cfg
 !net/yolov3.cfg
+!net/yolov4-tiny.weights
 detections/*.png
 detections/*.mp4
 !detections/web_img_24_152755.png
